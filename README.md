@@ -6,7 +6,9 @@ This project is a Python-based tool that extracts structured data from PDF invoi
 
 It supports both digital and scanned documents using OCR and is designed to work with multiple invoice formats.
 
----
+This tool automates invoice data extraction, reducing manual data entry and saving time in accounting workflows.
+
+It is designed to be adaptable to different invoice formats and can be customized for specific business needs.
 
 ## Features
 
@@ -20,10 +22,14 @@ It supports both digital and scanned documents using OCR and is designed to work
 
 ## How it works
 
-1. Reads all PDF files from the `Invoices` folder
-2. Extracts text from each file (uses OCR when needed)
-3. Parses relevant data using pattern matching
-4. Saves structured results in the `Output` folder
+## Example Workflow
+
+1. Place invoice PDF files in the `Invoices` folder  
+2. Run the script  
+3. Get structured output in the `Output` folder  
+
+Input: Raw PDF invoices  
+Output: Structured data ready for analysis
 
 ---
 
